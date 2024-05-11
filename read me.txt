@@ -1,0 +1,49 @@
+Technologies Used:
+
+Flask (Python framework for web application)
+MySQL (Relational database management system)
+Africa's Talking or Twilio (for USSD application)
+Features:
+
+Client Registration:
+
+Allows clients to register their accounts by providing necessary details such as name, email, phone number, etc.
+Photography and Videography Day Requests:
+
+Clients can request specific dates for photography and videography sessions through the application.
+Payment Processing:
+
+Integration of a payment gateway to facilitate secure online payments for services rendered.
+Confirmation Messages:
+
+Automated confirmation messages are sent to clients upon successful registration, order placement, and payment.
+Picture Access:
+
+Clients can easily access their pictures through the application, possibly via a unique URL or account dashboard.
+User Authentication:
+
+Secure login/logout functionality to ensure the privacy and security of client accounts.
+Development Process:
+
+Setting Up Environment:
+
+Install Flask, MySQL, and any necessary dependencies.
+Set up a MySQL database and define the schema for storing client information, orders, payments, etc.
+Web Application Development:
+
+Create Flask application structure with routes for different functionalities.
+Implement backend logic for user registration, order placement, payment processing, etc.
+Integrate with MySQL for data storage and retrieval.
+Testing:
+
+Thoroughly test the web application to ensure all features are working as expected.
+Conduct user acceptance testing to gather feedback and make necessary improvements.
+Deployment:
+
+Deploy the web application on a suitable web server, ensuring proper configuration for production use.
+Monitor the application for any issues and provide ongoing support.
+USSD Application Development:
+
+Develop a USSD application to mirror the functionalities of the web application for clients without internet access.
+Use Africa's Talking or Twilio to implement USSD functionality.
+Test the USSD application extensively to ensure seamless usability.
